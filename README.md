@@ -45,3 +45,7 @@ For training I did it in two stages. First I froze all the backbone layers and o
 - Matplotlib
 - Jupyter Notebook
 For training I did it in two stages. First I froze all the backbone layers and only trained the final fully connected layer. Then I unfroze the last two inception blocks along with the FC layer and fine tuned everything together with a lower learning rate. The final test accuracy came out to around 95 percent.
+
+## Project Preview
+
+![Project Preview](image/image.png)
